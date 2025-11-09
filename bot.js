@@ -230,7 +230,7 @@ function hardlyKnowHer(text) {
 			if (text.match(new RegExp(`\\b${base}er`, 'i'))[0][0] === text.match(new RegExp(`\\b${base}er`, 'i'))[0][0].toUpperCase()) {
 				base = base[0].toUpperCase() + base.slice(1).toLowerCase();
 			}
-			return `${base} her? I hardly know her!`;
+			return `${base}e her? I hardly know her!`;
 		}
 	}
 	return null;
